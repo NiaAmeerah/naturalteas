@@ -1,0 +1,85 @@
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  color:Purple;
+}
+pre {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color:Black;
+}
+#myDIV {
+    text-align: center;
+    margin:auto;
+    border: 2px solid #EBDEF0;
+    width: 400px;
+    height: 150px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {font: 40px bold;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {font: 40px bold;}
+}
+body{
+  background-color: #EBDEF0;
+}
+
+body {margin:0;}
+a:link, a:visited {
+    color: purple;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: white;
+}
+p{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #F0A737;
+
+}
+mark{
+  background-color: #EBDEF0;
+  color: Purple;
+}
+
+iframe{
+  text-align: center;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 1300px;
+    height: 250px;
+    background-color:#EBDEF0  ;
+    margin: auto;
+}
+
+.flex-item {
+    background-color: White;
+    width: 400px;
+    height: 315px;
+    margin: 10px;
+}
+h2
+{font-family: 'Dancing Script', cursive;
+text-shadow: 4px 4px 4px #aaa;
+color:#F0A737;
+border-bottom: 2px solid White;
+
+}

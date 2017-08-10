@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+		<link rel = "stylesheet" href = "{% static 'css/style.css' %}">
+
+		<body>
+		<title>NaturalTeas.com</title>
+
+
+
+
+	</head>
+
+<div id="myDIV">
+	<h1><b>How To</b> </h1>
+</div>
+<center><img src="{% static 'images/pictureheader.jpg' %}" style="width:941px;height:196px;"> </center>
+
+<hr>
+		<header>
+			<ul>
+			<pre><a href="{% url 'naturalteas' %}">Home Page</a><a href="{% url 'twistoutbraidout' %}"> Twistouts/braidouts</a><a href="{% url 'boxbraidsandaddins' %}"> Braids/Addins </a><a href="{% url 'washngo' %}">  WashNgo</a><a href="{% url 'howto' %}">      How To</a> <a href="{% url 'profilepage' %}">      Profile Page</a></pre>
+		</header>
+     <br>
+		 <br>
+ <p1> Click the buttons to find available videos! </p1>
+<button onclick="scroll1()" style="background-color:#F0A737; font-family:'Dancing Script'; color:White;" >Braids/Addins</button>
+<button onclick="scroll2()"style="background-color:#F0A737; font-family:'Dancing Script'; color:White;">Twistout/Braidout</button>
+<button onclick="scroll3()"style="background-color:#F0A737; font-family:'Dancing Script'; color:White;">Wash 'n' Go</button>
+
+<script>
+function scroll1() {
+    window.scrollTo(0, 300);
+}
+function scroll2() {
+		window.scrollTo(0, 1000);
+}
+function scroll3() {
+    window.scrollTo(0, 1700);
+}
+</script>
+
+    <br>
+    <h2><b>Braids/Addins</b><h2>
+
+    <div class="flex-container">
+      <div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/2fkhVtSxf-A?ecver=1" frameborder="0" allowfullscreen> -->
+     </iframe><center>
+</div>
+      <div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/VPw6gFhGTlk?ecver=1" frameborder="0" allowfullscreen> -->
+          </iframe><center>
+</div style="border-bottom: 2px purple dotted;">
+      <div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/Tcy13JX9GzE?ecver=1" frameborder="0" allowfullscreen> -->
+     </iframe><center></div>
+    </div>
+		<br>
+    <br>
+		<br>
+		<br>
+		<br>
+		<h2><b> Twistouts/Braidouts</b> </h2>
+		<br>
+		<br>
+		<div class="flex-container">
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/_qaWRmGSzQk?ecver=1" frameborder="0" allowfullscreen> -->
+
+		 </iframe><center>
+</div>
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/sCcGoqY6sUo?ecver=1" frameborder="0" allowfullscreen> -->
+		 </iframe><center>
+</div style="border-bottom: 2px purple dotted;">
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/XR9cE8uFdJ8?ecver=1" frameborder="0" allowfullscreen> -->
+		 </iframe><center></div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2><b> Wash 'n' Go's</b></h2>
+		<br>
+		<br>
+		<div class="flex-container">
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/UcXKEOIGxoY" frameborder="0" allowfullscreen> -->
+
+		 </iframe><center>
+</div>
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/qJ3Es86ofVE" frameborder="0" allowfullscreen> -->
+		 </iframe><center>
+</div style="border-bottom: 2px purple dotted;">
+			<div class="flex-item"><center><iframe width="400px" height="315px" src="https://www.youtube.com/embed/JnyAQQc0crU" frameborder="0" allowfullscreen> -->
+		 </iframe><center></div>
+		</div>
+
+
+    </body>
+		</html>
+<!-- </div> -->
+ <!-- <iframe width="560px" height="315px" src="https://www.youtube.com/embed/2fkhVtSxf-A?ecver=1" frameborder="0" allowfullscreen> -->
+<!-- </iframe> -->
